@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Your Photos and Videos</title>
+  <style>
+    body {
+      background-color: #f3e8ff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .form-box {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .form-box h2 {
+      color: #3d0066;
+      margin-bottom: 20px;
+    }
+    .link-box {
+      margin: 20px 0;
+    }
+    .link-box a {
+      color: #1a73e8;
+      word-break: break-all;
+    }
+    .btn {
+      background-color: #6a1b9a;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .btn:hover {
+      background-color: #4a0072;
+    }
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 12px;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-box">
+    <h2>Upload your photos and videos in the below drive link:</h2>
+    <div class="link-box">
+      <a href="https://drive.google.com/drive/folders/1SuDKMnUtA2bJeQyx04kxwQY6CRAgRyag?usp=sharing" target="_blank">
+        https://drive.google.com/drive/folders/1SuDKMnUtA2bJeQyx04kxwQY6CRAgRyag?usp=sharing
+      </a>
+    </div>
+    <button class="btn" onclick="window.open('https://drive.google.com/drive/folders/1SuDKMnUtA2bJeQyx04kxwQY6CRAgRyag?usp=sharing')">Upload Now</button>
+    <footer>This is an independent form. No login required.</footer>
+  </div>
+</body>
+</html>
